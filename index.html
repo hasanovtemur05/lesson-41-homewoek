@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+  
+</head>
+<body>
+    <!-- Header -->
+    <div class="header w-full bg-[white] border-b-2 sticky top-0 left-0 h-[50px] md:h-[86px]">
+        <div class=" custom-container m-auto  h-full  flex items-center justify-between">
+            <a href="./index.html"><img src="./images/header-logo.svg" alt="header-logo" class="h-[30px] md:h-auto"></a>
+            <div class="header__left flex gap-[26px]">
+                <ul class="header__list  gap-[26px] items-center hidden md:flex">
+                    <li><a href="#" class="text-[#605DEC]">Flights</a></li>
+                    <li><a href="#" class="text-[#605DEC]">Hotels</a></li>
+                    <li><a href="#" class="text-[#605DEC]">Packages</a></li>
+                    <li><a href="#" class="text-[#605DEC]">Packages</a></li>
+                </ul>
+                <a href="./index.html"><button class="header__btn py-[13px] px-[25px] bg-[#605DEC] rounded-[5px] text-[#FAFAFA] hidden md:block">Sign up</button></a>
+                <img src="./images/bars-.svg" alt="" class="w-[20px] md:hidden">
+            </div>
+        </div>
+       </div>
+
+       <!-- Hero -->
+       <div id="hero" class="custom-container grid  mt-[50px] gap-[30px] md:gap-[40px] lg:gap-[60px] xl:gap-[80px]">
+            <div class="grid justify-center w-full">
+                <h1 class="text-[38px] font-bold text-center text-[#605DEC] w-[250px] md:text-[50px] md:w-[400px] lg:text-[60px] xl:text-[80px] lg:w-[600px]">It's more than just a trip</h1>
+            </div>
+            <!-- dropdown -->
+            <div class="w-[100%] h-auto grid grid-cols-1 gap-[10px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 xl:gap-[0px]">
+                <!-- card-1 -->
+                <div class="flex items-center gap-[10px] border-[2px] border-[#CBD4E6] rounded-[5px] py-[8px] px-[12px] w-full">
+                    <img src="./images/departure.svg" alt="">
+                    <p class="text-[18px] text-[#7C8DB0]">From where?</p>
+                </div>
+                <!-- card-2 -->
+                <div  class="flex items-center gap-[10px] border-[2px] border-[#CBD4E6] rounded-[5px] py-[8px] px-[12px] w-full">
+                    <img src="./images/Union.svg" alt="">
+                    <p class="text-[18px] text-[#7C8DB0]">Where to?</p>
+                </div>
+                <!-- card-3 -->
+                <div  class="flex items-center gap-[10px] border-[2px] border-[#CBD4E6] rounded-[5px] py-[8px] px-[12px] w-full">
+                    <img src="./images/calendar with dates.svg" alt="">
+                    <p class="text-[18px] text-[#7C8DB0]">Depart - Return</p>
+                </div>
+                <!-- card-4 -->
+                <div  class="flex items-center gap-[10px] border-[2px] border-[#CBD4E6] rounded-[5px] py-[8px] px-[12px] w-full">
+                    <img src="./images/user.svg" alt="">
+                    <p class="text-[18px] text-[#7C8DB0]">1 adult</p>
+                </div>
+                <button class="py-[8px] px-[12px] text-[18px] text-[#FAFAFA] bg-[#605DEC] rounded-[5px] ">Search</button>
+            </div>
+       </div>
+
+       <!-- deals--section -->
+       <section class="custom-container mt-[60px] md:mt-[80px] lg:mt-[200px] xl:mt-[300px]">
+            <div class="flex  gap-[30px] justify-between w-full px-[30px]">
+                <h1 class="text-[#6E7491] text-[16px] lg:text-[18px] xl:text-[24px]">Find your next adventure with these <span class="text-[#605DEC]">flight deals</span></h1>
+                <img src="./images/All.svg" alt="">
+            </div>
+            <div class="w-full md:grid grid-cols-2 lg:grid-cols-3">
+                <div class="w-full">
+                    <img src="./images/full card1.svg" alt="" class="w-full">
+                </div>
+                <div class="w-full">
+                    <img src="./images/full card2.svg" alt="" class="w-full">
+                </div>
+                <div class="w-full">
+                    <img src="./images/full card3.svg" alt="" class="w-full">
+                </div>
+            </div>
+            <div class="rounded-[10px] overflow-hidden border-2">
+                <img src="./images/card4.svg" alt="">
+                <p class="text-[#6E7491] px-[5px] pt-[5px] lg:px-[20px]">Tsavo East National Park, <span class="text-[#605DEC]">Kenya</span></p>
+                <p class="text-[12px] text-[#7C8DB0] px-[5px] py-[5px] lg:px-[20px]">Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.</p>
+            </div>
+       </section>
+
+
+       <section class="custom-container mt-[60px] md:mt-[80px] lg:mt-[100px] xl:mt-[200px]">
+        <div class="flex  gap-[30px] justify-between w-full px-[30px]">
+            <h1 class="text-[#6E7491] text-[16px] lg:text-[18px] xl:text-[24px]">Explore unique  <span class="text-[#22C3A6]">places to stay</span></h1>
+            <img src="./images/All.svg" alt="">
+        </div>
+        <div class="w-full md:grid grid-cols-2 lg:grid-cols-3">
+            <div>
+                <img src="./images/full card5.svg" alt="">
+            </div>
+            <div>
+                <img src="./images/full card6.svg" alt="">
+            </div>
+            <div>
+                <img src="./images/full card7.svg" alt="">
+            </div>
+        </div>
+       </section>
+       <div class="custom-container flex justify-center my-[30px] md:my-[40px] lg:my-[60px] xl:my-[80px]" >
+            <button class="text-[#FAFAFA] text-[16px] bg-[#605DEC] w-[200px] h-[48px] rounded-[5px]">Explore more stays</button>
+       </div>
+       <section class="custom-container grid gap-[30px] lg:mt-[120px]">
+            <p class="text-[#6E7491] text-center text-[24px]">What <span class="text-[#605DEC]">Tripma</span> users are saying</p>
+            <div class="w-full grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3 ">
+                <div class="flex gap-[15px]">
+                    <div class="w-full"><img src="./images/avatar1.svg" alt="" ></div>
+                    <div>
+                        <p class="text-[#6E7491]">Yifei Chen</p>
+                    <p class="text-[#27273F]">Seoul, South Korea | April 2019</p>
+                    <img src="./images/star row.svg" alt="">
+                    <p class="text-[#27273F]">What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me read more...</p>
+                    </div>
+                </div>
+                <div class="flex gap-[15px]">
+                    <div class="w-full"><img src="./images/avatar2.svg" alt=""></div>
+                    <div>
+                        <p class="text-[#6E7491]">Kaori Yamaguchi</p>
+                    <p class="text-[#27273F]">Honolulu, Hawaii | February 2017</p>
+                    <img src="./images/star row.svg" alt="">
+                    <p class="text-[#27273F]">My family and I visit Hawaii every year, and we usually book our flights using other services. Tripma was recommened to us by a long time friend, and I’m so glad we tried it out! The process was easy and read more...</p>
+                    </div>
+                </div>
+                <div class="flex gap-[15px]">
+                    <div class="w-full"><img src="./images/avatar3.svg" alt=""></div>
+                    <div>
+                        <p class="text-[#6E7491]">Anthony Lewis</p>
+                    <p class="text-[#27273F]">Berlin, Germany | April 2019</p>
+                    <img src="./images/star row.svg" alt="">
+                    <p class="text-[#27273F]">What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me read more...</p>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <footer class="custom-container mt-[50px] grid grid-cols-2 gap-[30px] md:grid-cols-3 md:mt-[100px] lg:grid-cols-5">
+            <div class="div grid justify-center">
+                <img src="./images/header-logo.svg" alt="">
+            </div>
+            <div class="div grid justify-center">
+                <p class="text-[#6E7491]">About</p>
+                <p class="text-[#7C8DB0]">About Tripma</p>
+                <p class="text-[#7C8DB0]">How it works</p>
+                <p class="text-[#7C8DB0]">Careers</p>
+                <p class="text-[#7C8DB0]">Press</p>
+                <p class="text-[#7C8DB0]">Blog</p>
+                <p class="text-[#7C8DB0]">Forum</p>
+            </div>
+            <div class="div grid justify-center">
+                <p class="text-[#6E7491]">Partner with us</p>
+                <p class="text-[#7C8DB0]">Partnership programs</p>
+                <p class="text-[#7C8DB0]">Affiliate program</p>
+                <p class="text-[#7C8DB0]">Connectivity partners</p>
+                <p class="text-[#7C8DB0]">Promotions and events</p>
+                <p class="text-[#7C8DB0]">Integrations</p>
+                <p class="text-[#7C8DB0]">Community</p>
+                <p class="text-[#7C8DB0]">Loyalty program</p>
+            </div>
+            <div class="div grid justify-center">
+                <p class="text-[#6E7491]">Support</p>
+                <p class="text-[#7C8DB0]">Help Center</p>
+                <p class="text-[#7C8DB0]">Contact us</p>
+                <p class="text-[#7C8DB0]">Privacy policy</p>
+                <p class="text-[#7C8DB0]">Terms of service</p>
+                <p class="text-[#7C8DB0]">Trust and safety</p>
+                <p class="text-[#7C8DB0]">Accessibility</p>
+            </div>
+            <div class="div grid justify-center">
+                <p class="text-[#6E7491]">Get the app</p>
+                <p class="text-[#7C8DB0]">Tripma for Android</p>
+                <p class="text-[#7C8DB0]">Tripma for iOS</p>
+                <p class="text-[#7C8DB0]">Mobile site</p>
+                <img src="./images/app store.svg" alt="">
+                <img src="./images/google play.svg" alt="">
+            </div>
+       </footer>
+       <nav class="custom-container border-t-2 mt-[60px] my-[30px] grid gap-[30px] md:flex items-center justify-between">
+        <div><img src="./images/navbar.svg" alt=""></div>
+        <div><img src="./images/navbar2.svg" alt=""></div>
+       </nav>
+</body>
+</html>
